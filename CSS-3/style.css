@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+section {
+  height: 200px;
+  padding: 3rem 0;
+  text-align: center;
+  color: white;
+}
+
+/* Background color */
+.color-bg {
+  background-color: #3498db;
+  /* Solid blue background */
+}
+
+/* Fixed background image */
+.fixed-bg {
+  background-image: url("https://cdn.pixabay.com/photo/2016/10/20/18/35/earth-1756274_1280.jpg");
+  background-attachment: fixed;
+  /* The image will not scroll with the page */
+  background-position: center;
+  /* Centers the background image */
+  background-size: cover;
+  /* Ensure the image covers the entire section */
+}
+
+/* Background image that repeats */
+.image-bg {
+  background-image: url("https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616_1280.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  /* The image will be centered in its container */
+  background-size: cover;
+  /* The image will cover its container */
+}
