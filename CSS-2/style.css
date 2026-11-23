@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f0f0f0;
+}
+
+/* Styles for headings */
+h1 {
+  color: navy;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  color: darkred;
+  margin-bottom: 0.5em;
+}
+
+/* Styles for paragraphs */
+p {
+  color: #333333;
+  line-height: 1.5;
+  margin-bottom: 1em;
+}
+
+/* Styles for images */
+#sampleImage {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+  /* Center the image */
+}
